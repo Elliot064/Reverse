@@ -1,0 +1,12 @@
+I was unclear on whether the no outside functions meant only functions that
+would reverse a string for you or no outside functions at all but I was not able
+to find a way to do it with no function calls so I used charAt(). To test this code
+copy it into gdb online, select java and run it. The file runs at O(n) where n is
+the string length, and to avoid using a string length function I included length
+as a parameter. This could easily be automated using the strLength() function from
+the previous question.
+
+input = "race car" 8
+return value = "rac ecar"
+input = "banana" 6
+return value = "ananab"
